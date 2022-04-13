@@ -1,0 +1,17 @@
+
+.inputText {
+    border-radius: 25px 0 0 25px;
+    width: 70%;
+    margin-left: 10%;
+    padding: 0 25px;
+    height: 50px;
+
+}
+
+.smtSubmit {
+    border-radius: 0 25px 25px 0;
+    background-color: #6246EA;
+    height: 50px;
+    width: 10%;
+    margin-right: 10%;
+}

@@ -1,0 +1,52 @@
+.course_card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    border: .05em solid black;
+    border-radius: 1em;
+}
+.col-lg-4 {
+    padding: 20px;
+}
+/*.course_card:hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}*/
+.course_card img {
+    padding-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.course_type{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #6246EA;
+}
+.course_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000000;
+}
